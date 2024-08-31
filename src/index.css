@@ -233,3 +233,27 @@ a {
     font-size: 1.5rem;
   }
 }
+/* Project section */
+
+
+.container .project {
+ 
+  
+   
+   
+  text-align: center; /* Center text inside the project section */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container .project {
+    width: 90%; /* Reduce width for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .container .project {
+    width: 95%; /* Further reduce width for very small screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+}
